@@ -66,3 +66,13 @@ npm test:
 npm run build:
  Builds the app for production.
 
+ ## Output images :
+ ![image](https://github.com/user-attachments/assets/8f1c79c4-8082-4386-8c41-09b4bed6cca7)
+ ![image](https://github.com/user-attachments/assets/bc34706f-03cd-4c56-a6c3-831074e3ec20)
+ ![image](https://github.com/user-attachments/assets/f16095d7-3bfc-48d2-ab8b-cf6e14a79d83)
+ ![image](https://github.com/user-attachments/assets/08ff3b03-5299-4071-8d25-ea0e505b1a4a)
+
+
+
+
+
