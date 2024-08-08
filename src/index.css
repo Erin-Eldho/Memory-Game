@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@500&display=swap');
+
+body {
+  font-family: 'Kalnia Glaze', serif;
+  margin: 0;
+  font-size: large;
+  text-align: center;
+  background: #1b1523;
+  color:#fff;
+}  

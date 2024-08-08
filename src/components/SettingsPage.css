@@ -1,0 +1,44 @@
+.settings-page {
+    padding: 20px;
+    max-width: 860px;
+    margin: 100px auto; /* Center horizontally with margin */
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside the box */
+  }
+  
+.setting-item {
+    margin-bottom: 20px;
+}
+  
+.setting-item label {
+    display: block;
+    margin-bottom: 50px; /* Increased margin for better spacing */
+    font-weight: bold;
+    font-size: large; /* Increased text size */
+    color: #fff; /* Ensure label text is readable */
+}
+  
+.setting-item input[type="number"] {
+    width: 120px; /* Slightly larger input box */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    font-size: large; /* Larger text size inside input */
+}
+  
+.start-button {
+    background: #7e13c0;
+    border: none;
+    padding: 12px 24px; /* Larger padding for button */
+    border-radius: 4px;
+    color: #cb7fe7;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: x-large; /* Increased button text size */
+}
+  
+.start-button:hover {
+    background: #5e0a96; /* Slightly darker hover color for better contrast */
+}     
