@@ -20,14 +20,15 @@ Ensure you have the following installed:
 
    
    git clone https://github.com/Erin-Eldho/Memory-Game.git
+
    cd Memory-game
     
 
-2. Install dependencies:
+3. Install dependencies:
    
    npm install
 
-3. npm start (to run the app)
+4. npm start (to run the app)
 
 
 ## Folder structure
