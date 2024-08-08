@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+#  Memory Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This is a fun and engaging memory game built with React.js and Zustand for state management. Customize your game settings, test your memory skills, and enjoy smooth gameplay with responsive design and interactive features.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ensure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js v22.16.0 or more
+- npm 
+- React js
 
-### `npm test`
+### Setup Steps
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   
+   git clone https://github.com/Erin-Eldho/Memory-Game.git
+   cd Memory-game
+    
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+   
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. npm start (to run the app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Folder structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This template follows a very simple project structure:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- src: This folder is the main container of all the code inside your application.
+ - components: Contains all reusable components used throughout the application.
+   - SettingsPage.js: Handles the settings page where users can customize game settings such as background color and board size.
+   - SettingsPage.css: Contains styles for the SettingsPage component.
+   - SingleCard.js: Represents a single card in the memory game.
+   - SingleCard.css: Contains styles for the SingleCard component.
+   - store: Contains the Zustand store configuration for state management.
+   - App.css: Contains styles for the overall application.
+   - App.js: Main component that initializes and renders the application.
+   - index.css: Contains global styles.
+   - index.js: Entry point of your application as per React standards.
+   - public: Contains static files like index.html.
+   - node_modules: Contains all the npm packages installed.
+   - .gitignore: Specifies which files and directories to ignore in git.
+   - package-lock.json: Automatically generated for any operations where npm modifies either the node_modules tree or package.json.
+   - package.json: Contains metadata about the project and dependencies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ ## Scripts:
+   While specific commands are detailed in the package.json file, here are a few useful scripts and their purposes:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+npm start:
+ Starts the development server.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm test:
+ Runs the test suite.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+npm run build:
+ Builds the app for production.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
