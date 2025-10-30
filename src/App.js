@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import './App.css';
 import SingleCard from './components/SingleCard';
 import useGameStore from './store/gameStore'; // Import Zustand store
@@ -27,7 +27,7 @@ function App() {
   const numberOfPairs = Math.floor((boardSize * boardSize) / 2);
 
   // Shuffle cards
-  const shuffleCards = () => {
+  const shuffleCards = useCallback(() => {
     const selectedImages = cardImages.slice(0, numberOfPairs); // Select only the number of pairs needed
     const shuffledCards = [...selectedImages, ...selectedImages]
       .sort(() => Math.random() - 0.5)
@@ -37,7 +37,7 @@ function App() {
     setChoiceTwo(null);
     setCards(shuffledCards);
     setTurns(0);
-  };
+  }, [numberOfPairs]); // Depend on numberOfPairs so it updates when board size changes
 
   // Handle a choice
   const handleChoice = (card) => {
@@ -77,7 +77,7 @@ function App() {
   // Start game automatically when board size changes
   useEffect(() => {
     shuffleCards();
-  }, [boardSize]); // Re-shuffle cards when boardSize changes
+  }, [shuffleCards]);
 
   return (
     <div className="App">
