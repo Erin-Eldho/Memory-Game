@@ -77,7 +77,7 @@ function App() {
   // Start game automatically when board size changes
   useEffect(() => {
     shuffleCards();
-  }, [shuffleCards]);
+  }, [boardSize, shuffleCards]);
 
   return (
     <div className="App">
